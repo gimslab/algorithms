@@ -2,6 +2,10 @@
 
 cf. https://hsin.hr/2008/ (Final Exam #2)
 
+
+![problem.png](problem.png)
+
+
 ```
 countingClosedPolygons.solution(arrows)
 

@@ -27,3 +27,5 @@ bin/
 .project
 .gradle/
 .settings
+/.idea/
+/out/

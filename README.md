@@ -1,6 +1,8 @@
 # algorithms
 알고리즘
 
+counting closed polygons
+
 power set with dp
 ```
 [1, 2, 3]

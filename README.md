@@ -1,7 +1,8 @@
 # algorithms
 알고리즘
 
-counting closed polygons
+counting closed polygons:
+https://github.com/gimslab/algorithms/tree/master/src/main/kotlin/counting_closed_polygons
 
 power set with dp
 ```

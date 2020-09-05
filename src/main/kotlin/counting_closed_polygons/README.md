@@ -1,4 +1,4 @@
-# algorithms
+# counting closed polygons
 
 cf. https://hsin.hr/2008/ (Final Exam #2)
 

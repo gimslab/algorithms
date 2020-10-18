@@ -1,7 +1,7 @@
 # algorithms(알고리즘)
 
 ### counting closed polygons:
-https://github.com/gimslab/algorithms/tree/master/src/main/kotlin/counting_closed_polygons
+https://github.com/gimslab/algorithms/tree/master/src/main/kotlin/com/gimslab/algorithms/counting_closed_polygons
 
 ### power set with dp
 ```
@@ -18,11 +18,3 @@ targetSum = 10
 7,3
 9,1
 ```
-
-### find common in arrays
-```
-src/main/kotlin/com/gimslab/algorithms/FindCommon.kt
-
-### decode string
-src/main/java/com/gimslab/algorithms/decode_string/*
-

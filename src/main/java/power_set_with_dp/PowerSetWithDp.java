@@ -9,14 +9,14 @@ import lombok.val;
 public class PowerSetWithDp {
 
 	public static void main(String[] args) {
-		val set = new Set(1, 2, 3);
-		val subs = powerset(set);
+		Set set = new Set(1, 2, 3);
+		PSet subs = powerset(set);
 		System.out.println(set);
 		System.out.println(subs);
 	}
 
 	private static PSet powerset(Set set) {
-		val result = new PSet();
+		PSet result = new PSet();
 		for (Integer item : set) {
 			int resultSize = result.size();
 			for (int i = 0; i < resultSize; i++)

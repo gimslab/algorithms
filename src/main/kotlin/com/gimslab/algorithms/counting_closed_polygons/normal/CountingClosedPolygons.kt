@@ -1,7 +1,7 @@
-package counting_closed_polygons.normal
+package com.gimslab.algorithms.counting_closed_polygons.normal
 
-import counting_closed_polygons.perf.BarPerf
-import counting_closed_polygons.perf.HistoryPerf
+import com.gimslab.algorithms.counting_closed_polygons.perf.BarPerf
+import com.gimslab.algorithms.counting_closed_polygons.perf.HistoryPerf
 
 class CountingClosedPolygons {
 

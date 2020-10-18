@@ -1,6 +1,6 @@
-package counting_closed_polygons.perf
+package com.gimslab.algorithms.counting_closed_polygons.perf
 
-import counting_closed_polygons.normal.Point
+import com.gimslab.algorithms.counting_closed_polygons.normal.Point
 
 class HistoryPerf(
 		val bars: MutableSet<BarPerf> = mutableSetOf(),

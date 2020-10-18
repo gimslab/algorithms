@@ -1,4 +1,4 @@
-package counting_closed_polygons.normal
+package com.gimslab.algorithms.counting_closed_polygons.normal
 
 data class Bar(
 		val start: Point,

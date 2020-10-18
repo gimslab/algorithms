@@ -1,4 +1,4 @@
-package com.gimslab.algorithms.decode_string;
+package com.gimslab.algorithms;
 
 import java.util.Stack;
 

@@ -1,6 +1,6 @@
-package counting_closed_polygons
+package com.gimslab.algorithms.counting_closed_polygons
 
-import counting_closed_polygons.normal.CountingClosedPolygons
+import com.gimslab.algorithms.counting_closed_polygons.normal.CountingClosedPolygons
 import java.io.BufferedReader
 import java.io.FileReader
 import java.lang.Integer.parseInt

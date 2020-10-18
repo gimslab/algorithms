@@ -1,10 +1,8 @@
-package power_set_with_dp;
+package com.gimslab.algorithms;
 
 import static java.util.Arrays.asList;
 
 import java.util.Vector;
-
-import lombok.val;
 
 public class PowerSetWithDp {
 

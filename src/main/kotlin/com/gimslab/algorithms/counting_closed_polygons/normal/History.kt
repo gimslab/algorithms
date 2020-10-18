@@ -1,4 +1,4 @@
-package counting_closed_polygons.normal
+package com.gimslab.algorithms.counting_closed_polygons.normal
 
 class History(
 		private val bars: MutableSet<Bar> = mutableSetOf(),

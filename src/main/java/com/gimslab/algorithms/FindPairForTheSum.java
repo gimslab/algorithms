@@ -1,4 +1,4 @@
-package find_pair_for_the_sum;
+package com.gimslab.algorithms;
 
 import java.util.ArrayList;
 import java.util.Arrays;

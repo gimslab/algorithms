@@ -31,6 +31,26 @@ public class SortCharactersByFrequency {
 				str.length());
 	}
 
+	private Map<Character, Integer> collectFrequency(String str) {
+		Map<Character, Integer> freqMap = new HashMap<>();
+		for (char c : str.toCharArray()) {
+			loop++;
+			freqMap.computeIfPresent(c, (character, integer) -> ++integer);
+			freqMap.putIfAbsent(c, 1);
+		}
+		return freqMap;
+	}
+
+	private Map<Integer, String> reverse(Map<Character, Integer> map) {
+		Map<Integer, String> rev = new HashMap<>();
+		for (Map.Entry<Character, Integer> es : map.entrySet()) {
+			loop++;
+			rev.computeIfPresent(es.getValue(), (integer, s) -> s + es.getKey());
+			rev.putIfAbsent(es.getValue(), es.getKey().toString());
+		}
+		return rev;
+	}
+
 	private String makeString(Map<Integer, String> map, int length) {
 		StringBuilder sb = new StringBuilder();
 		for (int i = length; i > 0; i--) {
@@ -57,25 +77,5 @@ public class SortCharactersByFrequency {
 			sb.append(c);
 		}
 		return sb.toString();
-	}
-
-	private Map<Character, Integer> collectFrequency(String str) {
-		Map<Character, Integer> freqMap = new HashMap<>();
-		for (char c : str.toCharArray()) {
-			loop++;
-			freqMap.computeIfPresent(c, (character, integer) -> ++integer);
-			freqMap.putIfAbsent(c, 1);
-		}
-		return freqMap;
-	}
-
-	private Map<Integer, String> reverse(Map<Character, Integer> map) {
-		Map<Integer, String> rev = new HashMap<>();
-		for (Map.Entry<Character, Integer> es : map.entrySet()) {
-			loop++;
-			rev.computeIfPresent(es.getValue(), (integer, s) -> s + es.getKey());
-			rev.putIfAbsent(es.getValue(), es.getKey().toString());
-		}
-		return rev;
 	}
 }

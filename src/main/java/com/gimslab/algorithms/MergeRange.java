@@ -20,8 +20,7 @@ public class MergeRange {
 			}
 		}
 		result.add(last);
-		return result.toArray(int[][].class); // TODO
-//		return toArray(result);
+		return toArray(result);
 	}
 
 	private static int[][] toArray(List<int[]> arrays) {

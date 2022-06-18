@@ -18,6 +18,7 @@ targetSum = 10
 7,3
 9,1
 ```
+
 https://github.com/gimslab/algorithms/tree/master/src/main/java/com/gimslab/algorithms
 
 https://github.com/gimslab/algorithms/tree/master/src/main/kotlin/com/gimslab/algorithms
